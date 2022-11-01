@@ -11,34 +11,36 @@
     <header>  
         <div>
         <h1>
-            <a href="#">View Score</a>
+            <a href="./highscores.html" class="highscorePageLink">View HighScores</a>
         </h1>
         </div>
 
     </header>
-    <main>
-        <section>
-            <div>
-                <div id="header">
+    <main id="coverPage">
+            <div class="wrap">
+            <div id="Top">
                     <h1 class="title">
                         Web Api challenge
                     </h1>
                 </div>  
-            <div class="timer">
+            <div class="Timer">
                 <h1>
-               <span id="Timer">Timer:60</span> 
+               <span id="currentTimer">Timer:60</span> 
                 </h1>
             </div>
-            <div id="quest">
+            <div id="quiz">
              <div id="questInfo">   
-            <p  class="para">
-                Welcome to your Math quiz. please choose the correct answer, and make sure to click the submit button at the end to view your final score, Good luck.
+            <p  id="quizText"  class="para">
+                Welcome to your Math quiz. please choose the correct answer, Good luck.
             </p>
+             </div>
+             <div id="questionDiv" class="quiz">
+
              </div>
              <button id="startButton">Start</button>
             </div>
-
-        </section>
+            </div>
+        
 
     </main>
     
